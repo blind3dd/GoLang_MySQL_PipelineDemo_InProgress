@@ -11,7 +11,7 @@ type Config struct {
 	DBPassword string `env:"DB_PASSWORD" envDefault:"mock_pass"`
 	DBHost     string `env:"DB_HOST" envDefault:"localhost"`
 	DBPort     string `env:"DB_PORT" envDefault:"3306"`
-	DBName     string `env:"DB_NAME" envDefault:"goapp_users"`
+	DBName     string `env:"DB_NAME" envDefault:"users"`
 	ServerPort string `env:"SERVER_PORT" envDefault:"8080"`
 }
 

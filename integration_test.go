@@ -262,8 +262,9 @@ func (suite *IntegrationTestSuite) TestMultipleUsers() {
 func (suite *IntegrationTestSuite) TestDuplicateConstraints() {
 	// Create first user
 	userData := CreateUserRequest{
-		Username: "duplicateuser",
-		Email:    "duplicate@example.com",
+		Username: "test",
+		Email:    "test@example.com"
+		est@example.com",
 		Password: "password123",
 	}
 
